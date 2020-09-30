@@ -1,0 +1,36 @@
+3rd selection
+Enter your name: Erica Southworth
+Hello  Erica Southworth
+Enter your start date: 12
+Start Date:  12
+Enter your start time: 15
+Start Time:  15
+Enter your return date: 15
+Return Date:  15
+Enter your return time: 15
+Return Time:  15
+Number of rental days: 3
+Days Renting:  3
+Damage Waiver (Y/N): Y
+Damage Waiver:  Y
+
+####################################
+###  Rental Car Billing Script   ###
+####################################
+  1. List available cars.
+  2. Select a car for rental.
+  3. Enter the customers information.
+  4. Print Receipt.
+  5.
+  6. Exit program.
+
+
+Enter your seletion (1,2,3): 4
+You've Selected  4
+Traceback (most recent call last):
+  File "main.py", line 174, in <module>
+    sales_tax_total = sub_total * sales_tax
+TypeError: can't multiply sequence by non-int of type 'float'
+codio@hair-summer:~/workspace$
+
+s

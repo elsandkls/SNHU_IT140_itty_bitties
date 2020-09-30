@@ -1,0 +1,61 @@
+# reciept page (variable/array/list used for resusablility )
+receipt_page = [
+0"",
+1" ",
+2"####################################",
+3"###  Rental Car Customer Receipt ###",
+4"####################################",
+5" ",
+6" Customer Name:",
+7" Car Selected: ",
+8" Color: ",
+9" Milage: ",
+10" Fuel Out: ",
+11" Liscense: ",
+12" Unit: ",
+13" ###################################",
+14" ",
+15" Car Daily Rate: ",
+16" Damage Waiver: ",
+17" Car Ins Daily Rate: ",
+18" Tax Percentage: ",
+19" ###################################",
+20" ",
+21" Additional Mileage Fee: ",
+22" Excess Distance: ",
+23" Refueling Per Gal Fee: ",
+24" Daily Milage Included: ",
+25" ###################################",
+26" ",
+27" Pickup Date: ",
+28" Pickup Time: ",
+29" Drop Off Date: ",
+30" Drop Off Time: ",
+31" ###################################",
+32" ",
+33" Sub Total: ",
+34" Sales Tax: ",
+35" Damages Waiver Total: ",
+36" Insurance Total: ",
+37" Total: ",
+38" ###################################",
+39""]
+
+
+  elif menu_selection == 4:
+    #Calculate it all 
+    sub_total = days_renting * daily_fee
+    dw_total = days_renting * dw_fee
+    ins_total = days_renting * ins_fee
+    sales_tax_total = sub_total * sales_tax
+    rental_total = 0
+
+
+
+sales_tax = float(6.75)
+daily_fee = float(9.99)
+dw_fee = float(18.99)
+gas_refill = float(3.913)
+ins_fee = float(14.99)
+add_milage = float(0.99)
+daily_milage = int(100)

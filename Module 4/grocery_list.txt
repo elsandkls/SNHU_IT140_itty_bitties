@@ -1,0 +1,72 @@
+# Create dictionary with a grocery list.  
+# Assign the dictionary to the variable grocery_list
+grocery_list = {}
+
+# Print out the contents of grocery_list
+#print(grocery_list)
+
+# name, cost, quantity
+grocery_list = {'name':'milk','cost':'2.99','quantity':2}  
+ 
+#Print out the contents of person
+print(grocery_list['name'])
+print(grocery_list['cost'])
+print(grocery_list['quantity'])
+
+# Update the quantity to 3 
+grocery_list['quantity'] = 3
+
+# Print out the contents of grocery_list after updating the quantity 
+print(grocery_list['name'])
+print(grocery_list['cost'])
+print(grocery_list['quantity'])
+
+
+#Create dictionary with person information.  Assign the dictionary to the variable person
+person = {'Name':'Lisa', 'Age':29}
+
+#Print out the contents of the dictionary
+print(person)
+
+person=['Lisa', '29']
+person[0]
+person=['Lisa', '29', 'Jay', '25', 'Doug', '27']
+
+person = {}
+print(person)
+
+#Create a pre-populated list containing the informatin of three persons
+
+persons={'1987':{'name':'Lisa','age':29,'school':'SNHU'},
+         '1997':{'name': 'Jay', 'age': 25, 'school': 'SNHU'},
+         '1998':{'name': 'Doug', 'age': 27, 'school': 'SNHU'}}
+
+#Print the person list
+print(persons)
+
+#Access the name of the first person
+print(persons['1998']['name'])
+
+#Create dictionary with person information.  Assign the dictionary to the variable person
+person={'name':'Lisa', 'age':29, 'school':'SNHU'}
+
+#Print out the contents of person
+print(person)
+
+#Remove person dictionary
+del person
+
+#Print out the contents of person after adding the school
+print(person)
+
+#Create dictionary with person information.  Assign the dictionary to the variable person
+person={'name':'Lisa', 'age':29, 'school':'SNHU'}
+
+#Print out the contents of person
+print(person)
+
+#Remove person dictionary
+del person
+
+#Print out the contents of person after adding the school
+print(person)

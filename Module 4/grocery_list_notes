@@ -1,0 +1,45 @@
+IT 140 Final Project Script Two Draft Guidelines and Rubric
+Grocery List Script
+ 
+You will be working on this project in the Project Two: Grocery List Script module in Codio. 
+
+Following the directions in that module, you will also be able to determine the exact placement of the comments you will need to make in the code. 
+
+In the Codio activity you will work on having your script do the following three things:
+1. User Input
+2. Loop through the grocery list
+3. Provide output to the console
+
+After completing the activity, annotate the code. 
+
+Specifically, your submission for the Grocery List script should address the following critical elements:
+
+I. In Your Script (Annotated Text File):
+Refer to the directions in the module in Codio for how to export out and comment your completed script.
+
+A. Identify examples of four uses of list operations in the script using comments in your code. 
+Be sure your examples address each of the following:
+    i. Creating lists
+    ii. Adding and removing data from a list
+    iii. Accessing values in a list
+    iv. Modifying values in a list
+
+B. Identify examples of dictionary operations using comments in your code. 
+Be sure your examples address each of the following:
+    i. Creating dictionaries
+    ii. Adding and removing key–value pairs
+    iii. Accessing values using keys
+    iv. Modifying values
+
+C. Identify examples of loop structures using comments in your code. 
+Be sure your examples address each of the following:
+    i. Item-based for loops
+    ii.  Index-based (range) for loops
+    iii.  While loops
+    
+
+From the tutorial:
+Customer enters name, price, quantity
+q = quit
+c = continue
+

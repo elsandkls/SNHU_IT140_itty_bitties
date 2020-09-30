@@ -1,0 +1,65 @@
+    'category':'veggies', 'products':[
+{'name': 'bell pepper', 'cost': 3, 'quantity': 1,'defmeasure':'bag'},
+     
+{'category': 'veggies', 'products': [{'name': 'bell pepper', 'cost': 3, 'quantity': 1, 'defmeasure': 'bag'}
+  
+{'category': 'veggies', 'products': [{'name': 'bell pepper', 'cost': 3, 'quantity': 1, 'defmeasure': 'bag'}, {'name': 'salad mix', 'cost': 5, 'quantity': 1, 'defmeasure': 'bag'}, {'name': 'tomatoes', 'cost': 5, 'quantity': 1, 'defmeasure': 'bag'}, {'name': 'pumpkin', 'cost': 5, 'quantity': 1, 'defmeasure': '1 lb'}, {'name': 'green beans', 'cost': 5, 'quantity': 1, 'defmeasure': 'bag'}, {'name': 'corn cob', 'cost': 5, 'quantity': 1, 'defmeasure': 'bag'}]}
+ 
+>>> my_dict = {'a' : 'one', 'b' : 'two'}
+>>> 'a' in my_dict
+True
+>>> 'b' in my_dict
+True
+>>> 'c' in my_dict
+False
+
+for k,v in dict.items():
+    print(k, v)
+
+list(d.viewkeys())
+
+for key, value in d.iteritems():
+    print(key, value)
+
+for e in range(len(x)):
+    print(([x for x in x.keys()][e], [x for x in x.values()][e]))
+
+
+count = {}
+for element in released:
+    count[element] = count.get(element, 0) + 1
+print count.....
+ 
+
+{'category': 'meat', 'products': 
+[
+{'name': 'eggs', 'cost': 5, 'quantity': 1, 'defmeasure': 'dozen'}, 
+{'name': 'breakfast sausage roll', 'cost': 5, 'quantity': 1, 'defmeasure': '8 oz'}, 
+{'name': 'breakfast sausage patties', 'cost': 5, 'quantity': 1, 'defmeasure': '8 oz'}, 
+{'name': 'bacon thick', 'cost': 5, 'quantity': 1, 'defmeasure': '16 oz'}, 
+{'name': 'bacon thin', 'cost': 5, 'quantity': 1, 'defmeasure': '16 oz'}, 
+{'name': 'steak beef', 'cost': 5, 'quantity': 1, 'defmeasure': '16 oz'}, 
+{'name': 'roast beef', 'cost': 5, 'quantity': 1, 'defmeasure': '16 oz'}, 
+{'name': 'ground beef', 'cost': 5, 'quantity': 1, 'defmeasure': '16 oz'}, 
+{'name': 'sausage links', 'cost': 5, 'quantity': 1, 'defmeasure': '16 oz'}, 
+{'name': 'chicken breast', 'cost': 5, 'quantity': 1, 'defmeasure': '16 oz'}, 
+{'name': 'chicken wings', 'cost': 5, 'quantity': 1, 'defmeasure': '16 oz'}, 
+{'name': 'chicken legs', 'cost': 5, 'quantity': 1, 'defmeasure': '16 oz'}, 
+{'name': 'chicken whole', 'cost': 5, 'quantity': 1, 'defmeasure': '2 lb'}, 
+{'name': 'fish fillets', 'cost': 5, 'quantity': 1, 'defmeasure': '16 oz'}
+]
+} 
+
+Traceback (most recent call last):
+  File "/home/esouthworth/workspace/python-workspace/grocery_list_testit.py", line 25, in <module>
+    print(grocery_list['products']['name']) 
+TypeError: list indices must be integers or slices, not str
+
+
+
+    print("Category: ", i, str.capitalize(grocery_list[i]('category')))   
+    l = len(grocery_list['products'][i]['name'])
+
+
+
+
